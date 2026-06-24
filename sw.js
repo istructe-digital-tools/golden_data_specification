@@ -1,5 +1,5 @@
 /* GT Specification service worker — CACHE_VERSION replaced at build time */
-const CACHE_VERSION = "6c9b26ff2facfcd4";
+const CACHE_VERSION = "5565cee992b995af";
 const CACHE_NAME = "gt-spec-" + CACHE_VERSION;
 
 const PRECACHE_URLS = [
@@ -15,6 +15,7 @@ const PRECACHE_URLS = [
   "./version.json",
   "./icons/icon-192.png",
   "./icons/icon-512.png",
+  "./content/001_Getting Started/001_Introduction/Process-Design-Construction-As-Built.svg",
   "./content/001_Getting Started/001_Introduction/figure-bim-relationship.svg",
   "./content/001_Getting Started/001_Introduction/figure-information-progression.svg",
   "./content/001_Getting Started/003_General property sets/PSETS.svg",
@@ -39,6 +40,7 @@ const PRECACHE_URLS = [
   "./content/007_Fasteners/003_Shear studs/Shear_Studs_Combined.svg",
   "./content/008_Connections/001_End plate/PlateEnd.SVG",
   "./content/008_Connections/002_Fin plate/PlateFin.SVG",
+  "./content/010_Certificates/002_Competancy/competency.svg",
 ];
 
 self.addEventListener("install", (event) => {

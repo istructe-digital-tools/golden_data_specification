@@ -963,7 +963,7 @@ td:first-child {
 }
 
 .spec-table tbody tr:hover {
-  background: var(--card-grey);
+  background: var(--accent-light);
 }
 
 .spec-table td {

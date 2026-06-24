@@ -20,11 +20,11 @@ window.SPEC_DATA = {
           ]
         },
         {
-          "id": "getting-started-acknowledgements",
-          "title": "Acknowledgements",
+          "id": "getting-started-how-to-use-this-document",
+          "title": "How to use this document",
           "items": [
             {
-              "id": "acknowledgements",
+              "id": "getting-started-how-to-use-this-document",
               "title": null,
               "headingLevel": null
             }
@@ -634,6 +634,17 @@ window.SPEC_DATA = {
           ]
         },
         {
+          "id": "certificates-competancy",
+          "title": "Competancy",
+          "items": [
+            {
+              "id": "certificates-competancy",
+              "title": null,
+              "headingLevel": null
+            }
+          ]
+        },
+        {
           "id": "certificates-maintenance",
           "title": "Maintenance",
           "items": [
@@ -746,8 +757,8 @@ window.SPEC_DATA = {
           "Simple technical information",
           "",
           "",
-          "Add <a class=\"sheet-ref-link\" href=\"#maintenance/maintenance-structure-maintenance-information/maintenance-structure-maintenance-information\">Maintenance - Structure maintenance information</a><br><br>Add “Element - Maintenance“",
-          "Add “Element - Inspections“"
+          "Add <a class=\"sheet-ref-link\" href=\"#maintenance/maintenance-structure-maintenance-information/maintenance-structure-maintenance-information\">Maintenance - Structure maintenance information</a><br><br>Add <a class=\"sheet-ref-link\" href=\"#maintenance/maintenance-element-maintenance-information/maintenance-element-maintenance-information\">Maintenance - Element maintenance information</a>",
+          "Add <a class=\"sheet-ref-link\" href=\"#maintenance/maintenance-inspection-information/maintenance-inspection-information\">Maintenance - Inspection information</a>"
         ],
         [
           "Engineering technical information",
@@ -760,18 +771,18 @@ window.SPEC_DATA = {
       "note": "",
       "pageTitle": "Introduction",
       "contentPath": "001_Getting Started/001_Introduction",
-      "content": "@PartIntro{The Golden Data Specification is a structured framework for capturing key information about a building's structure.}PartIntro@\n\n\n\nThis specification is designed to:\n\n* Provide descriptions of structural elements (e.g., beams, columns, floors)\n* Record critical safety information (fire ratings, load-bearing capacity, materials)\n* Capture compliance evidence linked to regulatory requirements\n* Store key building information relevant for lifecycle management and maintenance\n* Allow updates and queries over time, supporting inspections and ongoing safety monitoring.\n\nThe Golden Data Specification is a technical, structured format that provides both machine- and human-readable data. It sits alongside narrative reports and documents, and is intended to be in an open, editable format to ensure interoperability and future-proofing, using open data formats such as IFC (3D models), DXF (2D drawings), CSV (data tables), and ODT (reports).\n\nFollowing this specification will:\n\n* Show the building has been designed and built safely, with evidence of structural design, fire safety, and compliance with building regulations.\n* Confirm lifecycle-relevant information such as material properties, geometry, fire ratings, and structural loads has been captured.\n* Provide information needed for inspections, maintenance, and future modifications.\n* Provide information in a machine- and human-readable form, so regulators, building owners, and future dutyholders can interrogate the data.\n* Link documents to actual building elements using structured data formats to show that each element was designed, verified, and constructed correctly.\n\nThe level of detail for objects is covered by the following sections as shown in the table below.\n\n\n\n@{introduction}@\n\n\n\nThe intended audience will guide what level of detail is provided and how it is provided:\n\n* Simple high-level information provides information for an audience with no assumed technical or engineering knowledge.\n* Simple technical information provides information with language used for an audience with some technical knowledge, but who may not be experts.\n* Engineering technical information provides information to a technical audience and should be concise numerical data or short technical text-based statements.\n\nThe amount of information associated with an object is dependent on what is known at each stage.\n\n@[\"figure-information-progression.svg\",\"Information Progression from Design Specification to Installed Product and Maintenance Stage.\"]@\nIn figure 1, we can consider a template object created during the planning stage; during the design stage generic information will be added; during construction more information (and more precise information) can be added to the object. During the lifetime of the asset additional maintenance information will need to be added to the object.\n\nA set of core information about the structure should be stored in the BIM model, with supporting information being provided for further analysis. The core information should allow a stakeholder to undertake an assessment of the structure, with the supporting information allowing for further analysis.\n\n@[\"figure-bim-relationship.svg\",\"Relationship between core structural information held in the BIM model (IFC) and supporting information delivered in open, structured formats.\"]@",
-      "contentHtml": "<div class=\"rich-text part-intro\"><p>The Golden Data Specification is a structured framework for capturing key information about a building&#x27;s structure.</p></div><div class=\"prose-measure\"><p>This specification is designed to:</p></div><div class=\"prose-measure\"><ul><li>Provide descriptions of structural elements (e.g., beams, columns, floors)</li><li>Record critical safety information (fire ratings, load-bearing capacity, materials)</li><li>Capture compliance evidence linked to regulatory requirements</li><li>Store key building information relevant for lifecycle management and maintenance</li><li>Allow updates and queries over time, supporting inspections and ongoing safety monitoring.</li></ul></div><div class=\"prose-measure\"><p>The Golden Data Specification is a technical, structured format that provides both machine- and human-readable data. It sits alongside narrative reports and documents, and is intended to be in an open, editable format to ensure interoperability and future-proofing, using open data formats such as IFC (3D models), DXF (2D drawings), CSV (data tables), and ODT (reports).</p></div><div class=\"prose-measure\"><p>Following this specification will:</p></div><div class=\"prose-measure\"><ul><li>Show the building has been designed and built safely, with evidence of structural design, fire safety, and compliance with building regulations.</li><li>Confirm lifecycle-relevant information such as material properties, geometry, fire ratings, and structural loads has been captured.</li><li>Provide information needed for inspections, maintenance, and future modifications.</li><li>Provide information in a machine- and human-readable form, so regulators, building owners, and future dutyholders can interrogate the data.</li><li>Link documents to actual building elements using structured data formats to show that each element was designed, verified, and constructed correctly.</li></ul></div><div class=\"prose-measure\"><p>The level of detail for objects is covered by the following sections as shown in the table below.</p></div><div class=\"sheet-table-embed\" data-sheet-table=\"introduction\"></div><div class=\"prose-measure\"><p>The intended audience will guide what level of detail is provided and how it is provided:</p></div><div class=\"prose-measure\"><ul><li>Simple high-level information provides information for an audience with no assumed technical or engineering knowledge.</li><li>Simple technical information provides information with language used for an audience with some technical knowledge, but who may not be experts.</li><li>Engineering technical information provides information to a technical audience and should be concise numerical data or short technical text-based statements.</li></ul></div><div class=\"prose-measure\"><p>The amount of information associated with an object is dependent on what is known at each stage.</p></div><figure class=\"figure-block\"><img class=\"figure-image\" src=\"content/001_Getting Started/001_Introduction/figure-information-progression.svg\" alt=\"Information Progression from Design Specification to Installed Product and Maintenance Stage.\" /><figcaption class=\"figure-caption\">Information Progression from Design Specification to Installed Product and Maintenance Stage.</figcaption></figure><div class=\"prose-measure\"><p>In figure 1, we can consider a template object created during the planning stage; during the design stage generic information will be added; during construction more information (and more precise information) can be added to the object. During the lifetime of the asset additional maintenance information will need to be added to the object.</p></div><div class=\"prose-measure\"><p>A set of core information about the structure should be stored in the BIM model, with supporting information being provided for further analysis. The core information should allow a stakeholder to undertake an assessment of the structure, with the supporting information allowing for further analysis.</p></div><figure class=\"figure-block\"><img class=\"figure-image\" src=\"content/001_Getting Started/001_Introduction/figure-bim-relationship.svg\" alt=\"Relationship between core structural information held in the BIM model (IFC) and supporting information delivered in open, structured formats.\" /><figcaption class=\"figure-caption\">Relationship between core structural information held in the BIM model (IFC) and supporting information delivered in open, structured formats.</figcaption></figure>"
+      "content": "@PartIntro{The Golden Data Specification is a structured framework for capturing key information about a building's structure.}PartIntro@\n\n\n\nThis specification is designed to:\n\n* Provide descriptions of structural elements (e.g., beams, columns, floors)\n* Record critical safety information (fire ratings, load-bearing capacity, materials)\n* Capture compliance evidence linked to regulatory requirements\n* Store key building information relevant for lifecycle management and maintenance\n* Allow updates and queries over time, supporting inspections and ongoing safety monitoring.\n\nThe Golden Data Specification is a technical, structured format that provides both machine- and human-readable data. It sits alongside narrative reports and documents, and is intended to be in an open, editable format to ensure interoperability and future-proofing, using open data formats such as IFC (3D models), DXF (2D drawings), CSV (data tables), and ODT (reports).\n\nFollowing this specification will:\n\n* Show the building has been designed and built safely, with evidence of structural design, fire safety, and compliance with building regulations.\n* Confirm lifecycle-relevant information such as material properties, geometry, fire ratings, and structural loads has been captured.\n* Provide information needed for inspections, maintenance, and future modifications.\n* Provide information in a machine- and human-readable form, so regulators, building owners, and future dutyholders can interrogate the data.\n* Link documents to actual building elements using structured data formats to show that each element was designed, verified, and constructed correctly.\n\nThe level of detail for objects is covered by the following sections as shown in the table below.\n\n\n\n@{introduction}@\n\n\n\nThe intended audience will guide what level of detail is provided and how it is provided:\n\n* Simple high-level information provides information for an audience with no assumed technical or engineering knowledge.\n* Simple technical information provides information with language used for an audience with some technical knowledge, but who may not be experts.\n* Engineering technical information provides information to a technical audience and should be concise numerical data or short technical text-based statements.\n\nThe amount of information associated with an object is dependent on what is known at each stage.\n\n@[\"figure-information-progression.svg\",\"Information Progression from Design Specification to Installed Product and Maintenance Stage.\"]@\nIn figure 1, we can consider a template object created during the planning stage; during the design stage generic information will be added; during construction more information (and more precise information) can be added to the object. During the lifetime of the asset additional maintenance information will need to be added to the object.\n\nA set of core information about the structure should be stored in the BIM model, with supporting information being provided for further analysis. The core information should allow a stakeholder to undertake an assessment of the structure, with the supporting information allowing for further analysis.\n\n@[\"figure-bim-relationship.svg\",\"Relationship between core structural information held in the BIM model (IFC) and supporting information delivered in open, structured formats.\"]@\n\n\nThe workflow below shows how structural information develops in the BIM model, from early design intent to verified as-built data in the Golden Data Specification.\n\n@[\"Process-Design-Construction-As-Built.svg\", \"Information progression and assurance workflow within the Golden Data Specification.\"]@\n\nAt each stage, the information is improved, checked, and linked to the physical works. It starts with early design data in the BIM model, then moves through detailed design and construction information, before capturing installed products, certificates, and inspections during construction.\nEach step adds more assurance, such as tolerance checks, site inspections, and warranty documents. This creates a more reliable BIM model over time. By the time the as-built model is issued, it gives a complete and traceable digital record of the building, supported by evidence and suitable for regulatory review, lifecycle management, and ongoing safety monitoring.",
+      "contentHtml": "<div class=\"rich-text part-intro\"><p>The Golden Data Specification is a structured framework for capturing key information about a building&#x27;s structure.</p></div><div class=\"prose-measure\"><p>This specification is designed to:</p></div><div class=\"prose-measure\"><ul><li>Provide descriptions of structural elements (e.g., beams, columns, floors)</li><li>Record critical safety information (fire ratings, load-bearing capacity, materials)</li><li>Capture compliance evidence linked to regulatory requirements</li><li>Store key building information relevant for lifecycle management and maintenance</li><li>Allow updates and queries over time, supporting inspections and ongoing safety monitoring.</li></ul></div><div class=\"prose-measure\"><p>The Golden Data Specification is a technical, structured format that provides both machine- and human-readable data. It sits alongside narrative reports and documents, and is intended to be in an open, editable format to ensure interoperability and future-proofing, using open data formats such as IFC (3D models), DXF (2D drawings), CSV (data tables), and ODT (reports).</p></div><div class=\"prose-measure\"><p>Following this specification will:</p></div><div class=\"prose-measure\"><ul><li>Show the building has been designed and built safely, with evidence of structural design, fire safety, and compliance with building regulations.</li><li>Confirm lifecycle-relevant information such as material properties, geometry, fire ratings, and structural loads has been captured.</li><li>Provide information needed for inspections, maintenance, and future modifications.</li><li>Provide information in a machine- and human-readable form, so regulators, building owners, and future dutyholders can interrogate the data.</li><li>Link documents to actual building elements using structured data formats to show that each element was designed, verified, and constructed correctly.</li></ul></div><div class=\"prose-measure\"><p>The level of detail for objects is covered by the following sections as shown in the table below.</p></div><div class=\"sheet-table-embed\" data-sheet-table=\"introduction\"></div><div class=\"prose-measure\"><p>The intended audience will guide what level of detail is provided and how it is provided:</p></div><div class=\"prose-measure\"><ul><li>Simple high-level information provides information for an audience with no assumed technical or engineering knowledge.</li><li>Simple technical information provides information with language used for an audience with some technical knowledge, but who may not be experts.</li><li>Engineering technical information provides information to a technical audience and should be concise numerical data or short technical text-based statements.</li></ul></div><div class=\"prose-measure\"><p>The amount of information associated with an object is dependent on what is known at each stage.</p></div><figure class=\"figure-block\"><img class=\"figure-image\" src=\"content/001_Getting Started/001_Introduction/figure-information-progression.svg\" alt=\"Information Progression from Design Specification to Installed Product and Maintenance Stage.\" /><figcaption class=\"figure-caption\">Information Progression from Design Specification to Installed Product and Maintenance Stage.</figcaption></figure><div class=\"prose-measure\"><p>In figure 1, we can consider a template object created during the planning stage; during the design stage generic information will be added; during construction more information (and more precise information) can be added to the object. During the lifetime of the asset additional maintenance information will need to be added to the object.</p></div><div class=\"prose-measure\"><p>A set of core information about the structure should be stored in the BIM model, with supporting information being provided for further analysis. The core information should allow a stakeholder to undertake an assessment of the structure, with the supporting information allowing for further analysis.</p></div><figure class=\"figure-block\"><img class=\"figure-image\" src=\"content/001_Getting Started/001_Introduction/figure-bim-relationship.svg\" alt=\"Relationship between core structural information held in the BIM model (IFC) and supporting information delivered in open, structured formats.\" /><figcaption class=\"figure-caption\">Relationship between core structural information held in the BIM model (IFC) and supporting information delivered in open, structured formats.</figcaption></figure><div class=\"prose-measure\"><p>The workflow below shows how structural information develops in the BIM model, from early design intent to verified as-built data in the Golden Data Specification.</p></div><figure class=\"figure-block\"><img class=\"figure-image\" src=\"content/001_Getting Started/001_Introduction/Process-Design-Construction-As-Built.svg\" alt=\"Information progression and assurance workflow within the Golden Data Specification.\" /><figcaption class=\"figure-caption\">Information progression and assurance workflow within the Golden Data Specification.</figcaption></figure><div class=\"prose-measure\"><p>At each stage, the information is improved, checked, and linked to the physical works. It starts with early design data in the BIM model, then moves through detailed design and construction information, before capturing installed products, certificates, and inspections during construction.<br>Each step adds more assurance, such as tolerance checks, site inspections, and warranty documents. This creates a more reliable BIM model over time. By the time the as-built model is issued, it gives a complete and traceable digital record of the building, supported by evidence and suitable for regulatory review, lifecycle management, and ongoing safety monitoring.</p></div>"
     },
-    "acknowledgements": {
-      "id": "acknowledgements",
+    "getting-started-how-to-use-this-document": {
+      "id": "getting-started-how-to-use-this-document",
       "headers": [],
       "rows": [],
       "note": "",
-      "pageTitle": "Acknowledgements",
-      "contentPath": "001_Getting Started/002_Acknowledgements",
-      "content": "This document was made possible by:",
-      "contentHtml": "<div class=\"prose-measure\"><p>This document was made possible by:</p></div>"
+      "pageTitle": "How to use this document",
+      "contentPath": "001_Getting Started/002_How to use this document",
+      "content": "@PartIntro{The Golden Data Specification is a structured framework for capturing key information about a building's structure.}PartIntro@\n\n\n\nThis section explains how to use this document, including how to interpret the tables, and how to interact with commentary and notes.\n\n\n\n@Commentary{\n\n\n\nCommentary provides additional explanation of concepts that may not be fully described within the tables, or highlights supplementary information that should be considered.\n\n\n\nLonger commentary sections can be expanded by clicking anywhere within the commentary box. To close the box, click on the top of the commentary section. \n\n\n\nUsers new to the specification are encouraged to read all commentary to build understanding. More experienced users may choose to refer to it as needed.\n\n\n\n}Commentary@\n\n\n\nTable guidance: Longer definitions within the table can be expanded by clicking on the relevant cell. Longer definitions start with ▶.\n\n\n\n@{explainer-attributes}@\n\n\n\n@{explainer-ifc-and-certs}@\n\n\n\n@Note{\n\n\n\nNotes are included to provided further information for those who need further guidance.\n\n\n\n}Note@",
+      "contentHtml": "<div class=\"rich-text part-intro\"><p>The Golden Data Specification is a structured framework for capturing key information about a building&#x27;s structure.</p></div><div class=\"prose-measure\"><p>This section explains how to use this document, including how to interpret the tables, and how to interact with commentary and notes.</p></div><aside class=\"callout callout-commentary commentary-callout\"><div class=\"commentary-head\"><h2 class=\"callout-label\">Commentary</h2><button type=\"button\" class=\"commentary-toggle\" hidden aria-expanded=\"false\" aria-label=\"Expand commentary\">▶</button></div><div class=\"commentary-cell\"><div class=\"rich-text commentary-text\"><p>Commentary provides additional explanation of concepts that may not be fully described within the tables, or highlights supplementary information that should be considered.</p><p>Longer commentary sections can be expanded by clicking anywhere within the commentary box. To close the box, click on the top of the commentary section.</p><p>Users new to the specification are encouraged to read all commentary to build understanding. More experienced users may choose to refer to it as needed.</p></div></div></aside><div class=\"prose-measure\"><p>Table guidance: Longer definitions within the table can be expanded by clicking on the relevant cell. Longer definitions start with ▶.</p></div><div class=\"sheet-table-embed\" data-sheet-table=\"explainer-attributes\"></div><div class=\"sheet-table-embed\" data-sheet-table=\"explainer-ifc-and-certs\"></div><aside class=\"callout callout-notes\"><h2 class=\"callout-label\">Notes</h2><div class=\"rich-text rich-text-notes\"><p>Notes are included to provided further information for those who need further guidance.</p></div></aside>"
     },
     "elements-general": {
       "id": "elements-general",
@@ -1534,7 +1545,7 @@ window.SPEC_DATA = {
         ],
         [
           "Nominal Throat Thickness",
-          "recorded where applicable",
+          "record where applicable",
           "See diagram label a.<br>The design measurement representing the height of the largest isosceles triangle that can fit within the cross-section of a fillet weld. This value is used to assess the weld’s load-carrying capacity.",
           "Existing",
           "Pset_FastenerWeld → NominalThroatThickness",
@@ -1543,7 +1554,7 @@ window.SPEC_DATA = {
         ],
         [
           "Weld Width",
-          "recorded where applicable",
+          "record where applicable",
           "The required width of the weld at the contact surface, such as the width of a seam weld or the elongated hole at the faying surface.",
           "Existing",
           "Pset_FastenerWeld → WeldWidth",
@@ -1552,7 +1563,7 @@ window.SPEC_DATA = {
         ],
         [
           "Weld Diameter",
-          "recorded where applicable",
+          "record where applicable",
           "The specified diameter for welds applied at a single point, including spot welds, plug welds, or stud welds, measured at the faying surface.",
           "Existing",
           "Pset_FastenerWeld → WeldDiameter",
@@ -1561,7 +1572,7 @@ window.SPEC_DATA = {
         ],
         [
           "Weld Element Spacing",
-          "recorded where applicable",
+          "record where applicable",
           "See diagram label e.<br>The centre-to-centre distance between individual welds or weld elements, used to define the distribution of welds along a joint.",
           "Existing",
           "Pset_FastenerWeld → WeldElementSpacing",
@@ -1570,7 +1581,7 @@ window.SPEC_DATA = {
         ],
         [
           "Weld Element Length",
-          "recorded where applicable",
+          "record where applicable",
           "See diagram label l.<br>The length of each weld segment or element, typically specified for intermittent or continuous welds.",
           "Existing",
           "Pset_FastenerWeld → WeldElementLength",
@@ -1579,7 +1590,7 @@ window.SPEC_DATA = {
         ],
         [
           "Number of Weld Elements",
-          "recorded where applicable",
+          "record where applicable",
           "The total number of weld elements required along a joint or connection.",
           "Existing",
           "Pset_FastenerWeld → NumberOfWeldElements",
@@ -1588,7 +1599,7 @@ window.SPEC_DATA = {
         ],
         [
           "Deep Penetration Throat Thickness",
-          "recorded where applicable",
+          "record where applicable",
           "The effective throat thickness of a weld that includes additional depth due to enhanced fusion penetration, improving strength beyond standard fillet welds.",
           "Existing",
           "Pset_FastenerWeld → DeepPenetrationThroatThickness",
@@ -1597,7 +1608,7 @@ window.SPEC_DATA = {
         ],
         [
           "Weld Leg Length",
-          "recorded where applicable",
+          "record where applicable",
           "See diagram label z.<br>The distance from the weld toe to the point where the fusion faces intersect, measured across the face of the weld. This dimension helps define the size and strength of a fillet weld.",
           "Existing",
           "Pset_FastenerWeld → WeldLegLength",
@@ -1670,6 +1681,16 @@ window.SPEC_DATA = {
       "contentPath": "010_Certificates/001_Safety",
       "content": "@PartIntro{Example certificate, this information should be stored in an XML, or CSV format}PartIntro@\n\n\n\n@{safety-critcal-cert}@",
       "contentHtml": "<div class=\"rich-text part-intro\"><p>Example certificate, this information should be stored in an XML, or CSV format</p></div><div class=\"sheet-table-embed\" data-sheet-table=\"safety-critcal-cert\"></div>"
+    },
+    "certificates-competancy": {
+      "id": "certificates-competancy",
+      "headers": [],
+      "rows": [],
+      "note": "",
+      "pageTitle": "Competancy",
+      "contentPath": "010_Certificates/002_Competancy",
+      "content": "@PartIntro{Example certificate, this information should be stored in an XML, or CSV format}PartIntro@\n\n\n\nRecommended directory structure for designer information:\n\n\n\n@[\"competency.svg\",\"Recommended directory structure for competency information\"]@\n\n\n\n\n\n@{competency-certificate}@\n\n\n\n\n\n@Note{\n\n\n\nAccess to personal information should be restricted in accordance with data protection regulations (such as GDPR). For this reason, it is not recommended to store such information directly within the BIM model. Instead, it should be held in secure locations with controlled access, limited to authorised users only.\n\n\n\n}Note@",
+      "contentHtml": "<div class=\"rich-text part-intro\"><p>Example certificate, this information should be stored in an XML, or CSV format</p></div><div class=\"prose-measure\"><p>Recommended directory structure for designer information:</p></div><figure class=\"figure-block\"><img class=\"figure-image\" src=\"content/010_Certificates/002_Competancy/competency.svg\" alt=\"Recommended directory structure for competency information\" /><figcaption class=\"figure-caption\">Recommended directory structure for competency information</figcaption></figure><div class=\"sheet-table-embed\" data-sheet-table=\"competency-certificate\"></div><aside class=\"callout callout-notes\"><h2 class=\"callout-label\">Notes</h2><div class=\"rich-text rich-text-notes\"><p>Access to personal information should be restricted in accordance with data protection regulations (such as GDPR). For this reason, it is not recommended to store such information directly within the BIM model. Instead, it should be held in secure locations with controlled access, limited to authorised users only.</p></div></aside>"
     },
     "certificates-maintenance": {
       "id": "certificates-maintenance",
@@ -1897,6 +1918,51 @@ window.SPEC_DATA = {
         [
           "Tightening Method",
           "Torque control"
+        ]
+      ],
+      "note": ""
+    },
+    "competency-certificate": {
+      "id": "competency-certificate",
+      "content": "",
+      "contentPath": "",
+      "pageTitle": "",
+      "headers": [
+        "Properties",
+        "Description"
+      ],
+      "rows": [
+        [
+          "Name",
+          "Jane Smith"
+        ],
+        [
+          "Organisation",
+          "Structural Engineering Ltd."
+        ],
+        [
+          "Role",
+          "Structural Engineer"
+        ],
+        [
+          "Qualifications",
+          "MEng (Hons) Civil Engineering, CEng MIStructE"
+        ],
+        [
+          "Experience and Competencies",
+          "12 years in structural design, seismic detailing, steel structures"
+        ],
+        [
+          "Appointment Start Date",
+          "2023-02-01 00:00:00"
+        ],
+        [
+          "Appointment End Date",
+          "2030-06-30 00:00:00"
+        ],
+        [
+          "Responsibilities",
+          "Structural frame design, stability strategy, peer reviews"
         ]
       ],
       "note": ""
@@ -2605,6 +2671,60 @@ window.SPEC_DATA = {
           "IfcRisk → Description <br>(or risk‑related Pset as per ISO 19650‑6)",
           "IfcRisk",
           "-"
+        ]
+      ],
+      "note": ""
+    },
+    "explainer-attributes": {
+      "id": "explainer-attributes",
+      "content": "",
+      "contentPath": "",
+      "pageTitle": "",
+      "headers": [
+        "Attribute (name)",
+        "Record",
+        "Definition"
+      ],
+      "rows": [
+        [
+          "Necessary",
+          "necessary",
+          "This information must be included for the element."
+        ],
+        [
+          "Record",
+          "record when condition",
+          "This information must be included when a specified condition applies."
+        ],
+        [
+          "Optional",
+          "optional",
+          "This information is not required but may be included where relevant, for example to capture unusual characteristics or for completeness of record."
+        ]
+      ],
+      "note": ""
+    },
+    "explainer-ifc-and-certs": {
+      "id": "explainer-ifc-and-certs",
+      "content": "",
+      "contentPath": "",
+      "pageTitle": "",
+      "headers": [
+        "IFC",
+        "Defintion"
+      ],
+      "rows": [
+        [
+          "Custom",
+          "Custom properties sit outside the official IFC schema and are defined specifically for this specification."
+        ],
+        [
+          "Existing",
+          "Existing properties are standard attributes that already exist within the IFC schema."
+        ],
+        [
+          "Certificates",
+          "Certificates should be stored externally (e.g. XML or CSV format) and linked to the BIM model rather than embedded within it."
         ]
       ],
       "note": ""
@@ -5768,7 +5888,6 @@ window.SPEC_DATA = {
   },
   "refLinks": {
     "introduction": "introduction",
-    "acknowledgements": "acknowledgements",
     "elements-general": "elements-general",
     "elements-connections": "elements-connections",
     "safety-structure-safety-information": "safety-structure-safety-information",
@@ -5831,6 +5950,10 @@ window.SPEC_DATA = {
     "GroundConditions": "ground-conditions-documents",
     "StructureMaintenance": "maintenance-structure-maintenance-information",
     "Certificates": "certificates-safety",
+    "ElementMaintenance": "maintenance-element-maintenance-information",
+    "MaintenanceInspections": "maintenance-inspection-information",
+    "getting-started-how-to-use-this-document": "getting-started-how-to-use-this-document",
+    "certificates-competancy": "certificates-competancy",
     "Element - Safety": "safety-element-safety-information",
     "Element - Maintenance": "maintenance-element-maintenance-information",
     "Element - Inspections": "maintenance-inspection-information",
@@ -5877,6 +6000,8 @@ window.SPEC_DATA = {
     "element-inspections": "element-inspections",
     "element-maintenance": "element-maintenance",
     "element-safety": "element-safety",
+    "explainer-attributes": "explainer-attributes",
+    "explainer-ifc-and-certs": "explainer-ifc-and-certs",
     "fastener-shear-studs": "fastener-shear-studs",
     "geotechnical-constr-info": "geotechnical-constr-info",
     "geotechnical-design-info": "geotechnical-design-info",
@@ -5919,7 +6044,6 @@ window.SPEC_DATA = {
   },
   "refDisplay": {
     "introduction": "Getting Started - Introduction",
-    "acknowledgements": "Getting Started - Acknowledgements",
     "elements-general": "Getting Started - General property sets",
     "elements-connections": "Getting Started - Connection property sets",
     "safety-structure-safety-information": "Safety - Structure safety information",
@@ -5982,6 +6106,10 @@ window.SPEC_DATA = {
     "GroundConditions": "Ground Conditions - Documents",
     "StructureMaintenance": "Maintenance - Structure maintenance information",
     "Certificates": "Certificates - Safety",
+    "ElementMaintenance": "Maintenance - Element maintenance information",
+    "MaintenanceInspections": "Maintenance - Inspection information",
+    "getting-started-how-to-use-this-document": "Getting Started - How to use this document",
+    "certificates-competancy": "Certificates - Competancy",
     "Element - Safety": "Safety - Element safety information",
     "Element - Maintenance": "Maintenance - Element maintenance information",
     "Element - Inspections": "Maintenance - Inspection information",
@@ -6028,6 +6156,8 @@ window.SPEC_DATA = {
     "element-inspections": "Element - Inspections",
     "element-maintenance": "Element - Maintenance",
     "element-safety": "Element - Safety",
+    "explainer-attributes": "Explainer - Attributes",
+    "explainer-ifc-and-certs": "Explainer - Ifc - And - Certs",
     "fastener-shear-studs": "Fastener - Shear - Studs",
     "geotechnical-constr-info": "Geotechnical - Constr - Info",
     "geotechnical-design-info": "Geotechnical - Design - Info",
