@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Download — IStructE Golden Data Specification</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <meta name="theme-color" content="#1b7352" />
+  <script>
+    (function () {
+      try {
+        if (window.navigator.standalone === true) {
+          location.replace("./");
+          return;
+        }
+        if (
+          window.matchMedia(
+            "(display-mode: standalone), (display-mode: fullscreen), (display-mode: minimal-ui)"
+          ).matches
+        ) {
+          location.replace("./");
+          return;
+        }
+        if (localStorage.getItem("gt-pwa-installed") === "1") {
+          location.replace("./");
+        }
+      } catch (e) {
+        /* ignore */
+      }
+    })();
+  </script>
+  <link rel="stylesheet" href="css/spec.css" />
+</head>
+<body class="download-page">
+  <main class="download-shell">
+    <p class="download-eyebrow">IStructE</p>
+    <h1 class="download-title">Golden Data Specification</h1>
+    <p class="download-lead">Install the app for quick access and offline use.</p>
+
+    <button type="button" id="btn-download-primary" class="btn-download-primary">
+      Download
+    </button>
+
+    <p id="download-status" class="download-status" hidden aria-live="polite"></p>
+
+    <div id="download-instructions" class="download-instructions">
+      <p class="download-ios" hidden>
+        Tap <strong>Share</strong> in Safari, then choose <strong>Add to Home Screen</strong>.
+      </p>
+      <p class="download-chrome" hidden>
+        Use your browser menu (<strong>⋮</strong> or <strong>…</strong>) and choose
+        <strong>Install app</strong>, or use the install icon in the address bar.
+      </p>
+    </div>
+
+    <button type="button" id="btn-download-close" class="btn-download-close">Close</button>
+  </main>
+
+  <script src="js/pwa.js"></script>
+</body>
+</html>
